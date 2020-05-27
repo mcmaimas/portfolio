@@ -1,3 +1,3 @@
 I don't have a portfolio so here is my attempt.
 
-As I started I got invited to do Google FooBar so its still a work in progress...
+
