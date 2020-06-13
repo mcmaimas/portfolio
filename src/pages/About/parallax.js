@@ -2,6 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Parallax, ParallaxLayer } from "react-spring/renderprops-addons";
 import "./styles.css";
+import Intro from "../../components/Intro/Intro";
+import Deutsche from "../../components/Deutsche/Deutsche";
+import Fonbbnk from "../../components/Fonbnk/Fonbnk";
+import NCSU from "../../components/NCSU/NCSU";
+import Hobbies from "../../components/Hobbies/Hobbies";
 
 // Little helpers ...
 const url = (name, wrap = false) =>
@@ -86,10 +91,10 @@ class MyParallax extends React.Component {
         <ParallaxLayer
           offset={4}
           speed={1}
-          style={{ background: "linear-gradient(#ff9900, #7b3c59)" }}
+          style={{ backgroundColor: "#ff9900" }}
         />
         <ParallaxLayer
-          offset={4}
+          offset={4.5}
           speed={0}
           style={{ background: "linear-gradient(#ff9900, #7b3c59)" }}
         />
@@ -114,8 +119,7 @@ class MyParallax extends React.Component {
             justifyContent: "center",
           }}
         >
-          Intro
-          <img src={url("bash")} style={{ width: "40%" }} />
+          <Intro />
         </ParallaxLayer>
         <ParallaxLayer
           offset={1}
@@ -127,8 +131,7 @@ class MyParallax extends React.Component {
             justifyContent: "center",
           }}
         >
-          Deutsche
-          <img src={url("bash")} style={{ width: "40%" }} />
+          <Deutsche />
         </ParallaxLayer>
 
         <ParallaxLayer
@@ -141,13 +144,12 @@ class MyParallax extends React.Component {
             justifyContent: "center",
           }}
         >
-          Fonbnk
-          <img src={url("bash")} style={{ width: "40%" }} />
+          <Fonbbnk />
         </ParallaxLayer>
 
         <ParallaxLayer
           offset={3}
-          speed={-0.1}
+          speed={0.1}
           onClick={() => this.parallax.scrollTo(4)}
           style={{
             display: "flex",
@@ -155,8 +157,7 @@ class MyParallax extends React.Component {
             justifyContent: "center",
           }}
         >
-          NC State
-          <img src={url("bash")} style={{ width: "40%" }} />
+          <NCSU />
         </ParallaxLayer>
         <ParallaxLayer
           offset={4}
@@ -166,10 +167,10 @@ class MyParallax extends React.Component {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
+            backgroundSize: "cover",
           }}
         >
-          Mountain
-          <img src={url("bash")} style={{ width: "40%" }} />
+          <Hobbies />
         </ParallaxLayer>
       </Parallax>
     );
