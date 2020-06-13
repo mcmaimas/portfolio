@@ -8,22 +8,9 @@ import Lost from "./pages/Lost/lost";
 const App = () => (
   <Router>
     <main>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Landing</Link>
-          </li>
-          <li>
-            <Link to={`/about`}>About</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
-        </ul>
-      </nav>
       <Switch>
-        <Route path="/" exact component={Landing} />
-        <Route path="/about" component={About} />
+        <Route path="/" exact component={About} />
+        <Route path="/landing" component={Landing} />
         <Route path="/contact" component={Contact} />
         <Route render={Lost} />
       </Switch>
