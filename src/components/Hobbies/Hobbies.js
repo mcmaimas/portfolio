@@ -7,24 +7,23 @@ const Hobbies = () => {
       <ul>
         <li>
           <h3>
-            I love being active, but only on certain occasions such as playing
-            soccer, golfing, hiking with my dog, playing basketball, biking,
-            running with my dog, swimming (a.k.a. floating in any body of
-            water), kayaking, climbing, you get the idea...
+            I love being active such as playing soccer, golfing, hiking with my
+            dog, playing basketball, biking, running with my dog, kayaking,
+            climbing. My latest adventure was driving to Colorado (from NC) for
+            2 weeks to go hiking.
           </h3>
         </li>
         <li>
           <h3>
-            I love learning (shout out to Medium and Youtube), playing the
-            occasional video game ( I don't play much, but when I do, I REALLY
-            do) and reading. For some reason I love reading nonfiction stories
-            about questionable people. ("Ghost in the Wire", "The Spider
-            Network" and "Ugly Americans").
+            I love learning (shout out to Medium and Youtube), and am constantly
+            trying to better myself. This isn't just tech, but all sorts of
+            things. I've recently rediscovered my love for books. I just
+            finished this Brilliant Darkness and am now reading Happy City.
           </h3>
         </li>
         <li>
           <h3>
-            Nothing beats a good beer and a good conversation with a friend.
+            Nothing beats a good beer and good conversations with friends.
           </h3>
         </li>
       </ul>

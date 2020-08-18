@@ -8,21 +8,24 @@ const NCSU = () => {
       <ul>
         <li>
           <h3>
-            Overall my courses were 90% Java, 7% C, 1% JavaScript, 1% Assembly,
-            and 1% floating point precision.
+            My favorite courses were Intro to AI, Discrete Math, Numerical
+            Analysis and Software Engineering.
           </h3>
         </li>
         <li>
           <h3>
-            I was a TA for the CSC Department at NCSU for one semester in an
-            introductory computer science course. It covered basic HTML/CSS and
-            Linux terminal commands. I did it because it included being the
-            lecturer and I love teaching. I also served 1 year on the Scholars
-            Council for the university's Scholars Program.
+            Languages Used at University: Java(0.7), C(0.2), JavaScript(0.1),
+            Floating Point Precision(0.0000000000000001)
           </h3>
         </li>
         <li>
-          <h3>Go Pack.</h3>
+          <h5>
+            I was a TA for the CSC Department at NCSU for one semester in an
+            introductory computer science course. The course covered basic
+            knowledge of Linux terminals and HTML/CSS. I chose a course that
+            would also let me be the lecturer because I find teaching concepts
+            enjoyable.
+          </h5>
         </li>
       </ul>
     </div>

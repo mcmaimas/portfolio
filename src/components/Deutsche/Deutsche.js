@@ -3,33 +3,30 @@ import React from "react";
 const Deutsche = () => {
   return (
     <div>
-      <h1>I am the Front End Engineer for the AI/ML team at Deutsche Bank.</h1>
+      <h1>Full Stack Engineer for the AI/ML team at Deutsche Bank.</h1>
       <ul>
         <li>
           <h3>
-            My responsibility is designing/building the UI/UX of our React
-            applicaton. I use our internal version of bootstrap for the basic
-            layout and feel. I use d3 and Chart.js as my vizualization
-            libraries. We use FastAPI for our service layer. I touch all aspects
-            of the client and server side.
+            Our team is focused on building machine learning (ML) models for
+            front office users in the global Origination & Advisory division at
+            Deutsche Bank. We strive to make our infrastructure reusable so
+            other dev teams across the bank can easily get started with their
+            own ML projects. My job consists of 2 main aspects. Developing
+            microservices (FastApi) for uploading/storing/serving these models.
+            Developing the UI (React.js) where users can provide input to a
+            model, receive feedback from the model in the form of graphs/charts
+            (D3/Chart.js), and upload ML models of their own.
           </h3>
         </li>
         <li>
-          <h3>
-            When I joined the team we had multiple disjointed JavaScript
-            projects. I have since combined them into a SPA. Now my job is
-            building UI's for the new models we create, and developing a
-            reusable infrastructure to upload future models.
-          </h3>
-        </li>
-        <li>
-          <h3>
-            The current problem I face is state management. Up to this point we
-            have been small enough to handle state with hooks, but as we grow we
-            need to think about scalability. DB's internal package manager does
-            not allow for Apollo or Relay so I am researching Redux vs MobX to
-            see which best fits our needs.
-          </h3>
+          <h5>
+            My favorite project I've worked on was setting up health checks for
+            our scikit-learn models. What I designed was a system where the user
+            has to include a test suite when they upload one of their models.
+            The test suite runs against the model at the time of upload to make
+            sure the model functions as expected. The test suite is also run
+            when the model is asked to make a prediction.
+          </h5>
         </li>
       </ul>
     </div>
